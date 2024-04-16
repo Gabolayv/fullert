@@ -1,0 +1,80 @@
+<style>
+    body {
+        background-color: white;
+    }
+    .top-right {
+        position: absolute;
+        right: 10px; 
+        top: 10px;  
+      }
+    #contenido p {
+        font-style: italic;
+        font-size: 65px;
+        margin-right: 30%;
+        margin-left: 30%;
+        width: auto;
+        color: black;
+        background: cyan;
+        padding: 5px;
+        display: inline-block;
+    }
+    #contenido h1 {
+        font-size: 50px;
+        /*background: yellow;*/
+        padding-left: 40px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: black;
+        text-transform: uppercase;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+    h4.amarillo {
+        background: yellow;
+        position: fixed;
+    }
+
+    #contenido img {
+        width: 640px;
+        height: auto;
+        border: 10px solid black;
+        float : bottom;
+        border-radius: 15px 10px 15px 10px;
+    }
+    input[type="text"] {
+        width: 200px;
+        height: 40px;
+        margin-right: 10px;
+    }
+    .fake-button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #4CAF50;
+        color: white;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 5px;
+        margin-left: 10px;
+        transition: background-color 0.3s;
+    }
+    .dummy-hover {
+        background-color: gray;
+    }
+
+    .centered {
+        font-size: 55px;
+        font-style: italic;
+        color: yellow;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 512px;
+        width: auto;
+        background-color: gray 
+    }
+    footer {
+        position: absolute;
+        bottom: -50px;
+        width: 100%;
+    }
+</style>
